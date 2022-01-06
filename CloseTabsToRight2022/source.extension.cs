@@ -7,12 +7,12 @@ namespace CloseTabsToRight
 {
     static class Vsix
     {
-        public const string Id = "ee6375e5-ed09-4fba-a897-895813190958";
+        public const string Id = "9A182C3F-C860-46F9-8638-15F6D22BD426";
         public const string Name = "Close Tabs To Right";
         public const string Description = @"Close document tabs to the right of the current document.";
         public const string Language = "en-US";
-        public const string Version = "1.1";
-        public const string Author = "Bill Pratt";
+        public const string Version = "1.5";
+        public const string Author = "Evan Kinney";
         public const string Tags = "close, tab, tabs, to, right, document";
     }
 }
