@@ -4,8 +4,8 @@
         <Identity Id="9A182C3F-C860-46F9-8638-15F6D22BD426" Version="1.5" Language="en-US" Publisher="Evan Kinney" />
         <DisplayName>Close Tabs To Right 2022</DisplayName>
         <Description xml:space="preserve">Close document tabs to the right or left of the current document.</Description>
-        <MoreInfo>https://github.com/billpratt/CloseTabsToRight</MoreInfo>
-        <ReleaseNotes>https://github.com/billpratt/CloseTabsToRight/blob/master/CHANGELOG.md</ReleaseNotes>
+        <MoreInfo>https://github.com/evan-kinney/CloseTabsToRight2022</MoreInfo>
+        <ReleaseNotes>https://github.com/evan-kinney/CloseTabsToRight2022/blob/master/CHANGELOG.md</ReleaseNotes>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Preview.png</PreviewImage>
         <Tags>close, tab, tabs, to, right, left, document</Tags>
