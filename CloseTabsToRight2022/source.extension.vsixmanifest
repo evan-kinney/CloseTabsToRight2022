@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="ee6375e5-ed09-4fba-a897-895813190958" Version="1.4" Language="en-US" Publisher="Bill Pratt" />
-        <DisplayName>Close Tabs To Right</DisplayName>
+        <Identity Id="ee6375e5-ed09-4fba-a897-895813190958" Version="1.5" Language="en-US" Publisher="Evan Kinney" />
+        <DisplayName>Close Tabs To Right 2022</DisplayName>
         <Description xml:space="preserve">Close document tabs to the right or left of the current document.</Description>
         <MoreInfo>https://github.com/billpratt/CloseTabsToRight</MoreInfo>
         <ReleaseNotes>https://github.com/billpratt/CloseTabsToRight/blob/master/CHANGELOG.md</ReleaseNotes>
@@ -11,7 +11,9 @@
         <Tags>close, tab, tabs, to, right, left, document</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Community" />
+        <InstallationTarget Version="[17.0,)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />

@@ -1,4 +1,5 @@
-# CloseTabsToRight
+# Close Tabs To Right 2022
+forked from [billpratt/CloseTabsToRight](https://github.com/billpratt/CloseTabsToRight)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/631dk731mhovcpbp?svg=true)](https://ci.appveyor.com/project/billpratt/closetabstoright)
 
