@@ -1,10 +1,7 @@
 # Close Tabs To Right 2022
 forked from [billpratt/CloseTabsToRight](https://github.com/billpratt/CloseTabsToRight)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/631dk731mhovcpbp?svg=true)](https://ci.appveyor.com/project/billpratt/closetabstoright)
-
-Download this extension from the [VS Marketplace](https://visualstudiogallery.msdn.microsoft.com/0da1748d-6967-445f-b61b-7c447f3f4107)
-or get the [CI build](http://vsixgallery.com/extension/ee6375e5-ed09-4fba-a897-895813190958/).
+Download this extension from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=evan-kinney.CloseTabsToRight2022).
 
 ---------------------------------------
 
@@ -33,12 +30,6 @@ Right-click on the current document's tab and select *Close Tabs to the Left* to
 ## Contribute
 Check out the [contribution guidelines](CONTRIBUTING.md)
 if you want to contribute to this project.
-
-For cloning and building this project yourself, make sure
-to install the
-[Extensibility Tools 2015](https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6)
-extension for Visual Studio which enables some features
-used by this project.
 
 ## License
 [Apache 2.0](LICENSE)
