@@ -99,7 +99,7 @@ namespace CloseTabsToRight.Commands
             var windowFrames = vsWindowFrames.Select(vsWindowFrame => vsWindowFrame as WindowFrame);
             var activeFrame = GetActiveWindowFrame(vsWindowFrames, _dte);
 
-            var windowFrame = activeFrame;
+            var windowFrame = GetRootFrameIfSubFrame(activeFrame, windowFrames);
             if (windowFrame == null)
                 return;
 

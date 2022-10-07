@@ -62,5 +62,22 @@ namespace CloseTabsToRight.Helpers
 
             return windowFrames;
         }
+
+        /// <summary>
+        /// Some tabs, eg. a xaml tab, will have multiple window frames associated to it, with one of them being the root of other "sub-frames" in the heirarchy. 
+        /// Sub-frames will have a null FrameView, so we need to return root as an active frame if the given active frame is a "sub-frame".
+        /// </summary>
+        /// <param name="allWindowFrames">Flat list of all window frames open in document group</param>
+        /// <param name="activeFrame">Active frame that might be a "sub-frame"</param>
+        /// <remarks>We need FrameView of a frame to be able to access DocumentGroup ancestor in heirarchy</remarks>
+        public static WindowFrame GetRootFrameIfSubFrame(WindowFrame activeFrame, IEnumerable<WindowFrame> allWindowFrames)
+        {
+            if (activeFrame.FrameView == null && allWindowFrames.Contains(activeFrame.RootFrame))
+            {
+                return activeFrame.RootFrame;
+            }
+
+            return activeFrame;
+        }
     }
 }
